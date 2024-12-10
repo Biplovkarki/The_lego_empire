@@ -1,0 +1,45 @@
+@import url(user.css);
+
+.admin-register-container .form-control, .admin-login-container .form-control, .product-register-container .form-control, .product-edit-container .form-control,
+.product-register-container button, .product-edit-container button, .admin-register-container button, .admin-login-container button{
+    height: 5.5vh;
+}
+
+.product-register-container .input-wrapper textarea, .product-edit-container .input-wrapper textarea{
+    height: auto;
+}
+
+.product-register-container .input-wrapper input, .product-edit-container .input-wrapper input{
+    padding-left: 1vw;
+}
+
+.input-wrapper{
+    position: relative;
+}
+
+.input-wrapper input{
+    padding-left: 2.25vw;
+}
+
+.input-wrapper i{
+    font-size: 0.95rem;
+    position: absolute;
+    top: 50%;
+    left: 0.7vw;
+    transform: translateY(-50%);
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.navbar, .list-group-item{
+    background-color: #f2f4f6;
+}
+
+/* Admin Access */
+
+.admin-content{
+    background-color: white;
+}

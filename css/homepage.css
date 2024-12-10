@@ -1,0 +1,205 @@
+@import url('https://fonts.cdnfonts.com/css/louis-george-cafe');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Louis George Café', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Homepage */
+
+.background-img{
+    background-image: url(../images/batman.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.navbar-brand{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.badge{
+    background-color: #ca9d0d;
+    color: black;
+}
+
+.background-container{
+    position: relative;
+    height: 70vh;
+    overflow: hidden;
+}
+
+.backgroundImgWrapper{
+    position: relative;
+    width: 99.05%;
+    padding: 0vh 0vw 3vh 0.87vw;
+}
+
+.backgroundImg{
+    width: 100%;
+    height: auto;
+}
+
+.text-overlay{
+    position: absolute;
+    top: 20vh;
+    left: 16.5%;
+    transform: translate(-50%, -50%);
+    padding: 1vh 1.5vw;
+    border-radius: 50px;
+}
+
+.text-overlay h1{
+    margin: 0;
+    color: #000;
+}
+
+.base-category, .basic-container, .features-container{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.base-category img{
+    width: 35%;
+    transition: transform 0.35s;
+}
+
+.features-container img{
+    width: 25%;
+}
+
+.base-category img:hover{
+    transform: scale(1.1);
+}
+
+.image-container{
+    flex: 1;
+}
+
+.image-text{
+    margin-top: 1vh;
+    font-size: 1.1rem;
+}
+
+.features-container{
+    width: 98.25%;
+    background-color: rgb(248, 248, 248);
+}
+
+.latest-container .card a, .news-container .card a{
+    text-decoration: none;
+    color: black;
+}
+
+.cart-btn{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+  
+.cart-btn:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+.fixed-top-container{
+    position: fixed;
+    bottom: 5.5px;
+    right: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 999;
+}
+
+.slider{
+    padding-bottom: 1.7vh;
+    display: flex;
+    overflow-x: auto;
+}
+ 
+.slider-container{
+    display: flex;
+}
+
+.slider::-webkit-scrollbar{
+    height: 1vh;
+}
+  
+.slider::-webkit-scrollbar-track{
+    border-radius: 1.7px;
+    background: #f1f1f1;
+}
+
+.slider::-webkit-scrollbar-thumb {
+    border-radius: 1.7px;
+    background: #888; 
+}
+  
+.slider::-webkit-scrollbar-thumb:hover{
+    background: black; 
+}
+
+.show{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Sign In */
+
+.register-container{
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.homepage-register-container .form-control, .homepage-login-container .form-control,
+.homepage-register-container button, .homepage-login-container button{
+    height: 5.5vh;
+}
+
+.input-wrapper{
+    position: relative;
+}
+
+.input-wrapper input{
+    padding-left: 2.25vw;
+}
+
+.input-wrapper i{
+    font-size: 0.95rem;
+    position: absolute;
+    top: 50%;
+    left: 0.7vw;
+    transform: translateY(-50%);
+}
+
+.login-btn{
+    background-color: black;
+    color: white;
+    transition: transform 0.35s;
+}
+
+.login-btn:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}

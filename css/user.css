@@ -1,0 +1,154 @@
+@import url(homepage.css);
+
+.sticky-top{
+    background-color: white;
+}
+
+.logout-nav{
+    margin-right: -0.5vw;
+}
+
+.background-img{
+    height: 70vh;
+}
+
+.offers-container .card a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Cart */
+
+.cart-content{
+    background-color: white;
+}
+
+.cart-content i:hover{
+    color: black;
+}
+
+.quantity-change{
+    width: 10vw;
+}
+
+/* Checkout */
+
+.checkout-content a{
+    background-color: rgb(248, 248, 248);
+}
+
+/* Lego Details */
+
+.legobackground{
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.vl{
+    background-color: #929497;
+    width: 98.05%;
+    height: 0.25vh;
+    margin: -1vh 0 0 0.87vw;
+}
+
+.quantity-btn{
+    display: flex;
+    width: max-content;
+    margin: 0 0 2vh 0;
+    border: 1px solid #ddd;
+}
+  
+.value-button, .number-field{
+    width: 3vw;
+    height: 5.25vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.number-field{
+    background: white;
+    width: 4.5vw;
+    border: none;
+    font-size: 1.25rem;
+}
+  
+.value-button:hover{
+    cursor: pointer;
+}
+
+.quantity-btn #increase{
+    margin-left: 0.1vw;
+}
+
+.feature-container, .specification-container, .rating-container{
+    background-color: rgb(248, 248, 248);
+    border: 1px solid #ddd;
+    padding: 1.5vh 1.5vw;
+}
+
+.feature-container .card-body, .specification-container .card-body, .rating-container .card-body{
+    background-color: rgb(248, 248, 248);
+}
+
+.rating-container .star{
+    font-size: 1.15rem;
+    cursor: pointer;
+}
+
+.rating-btn{
+    background-color: black;
+    color: white;
+}
+
+/* Manage Account */
+
+.account-content .list-group .active{
+    background-color: rgb(235, 235, 235);
+    color: black;
+}
+
+.update-content-container .form-control, .update-content-container button, .update-content-container select, .update-content-container option{
+    height: 5.5vh;
+}
+
+/* Payment Page */
+
+.payment-container{
+    background-color: white;
+    margin-top: 6%;
+    width: 67%;
+    height: 75vh;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.payment-container img{
+    width: 11%;
+}
+
+.payment-container .btn{
+    margin-top: 7.7%;
+}
+.account-sidebar .list-group-item.active:hover {
+    /* Add your hover styles here */
+    background-color: #e9ecef; /* Change to your desired background color */
+    color: #000; /* Change to your desired text color */
+}
+
+/* Optional: Add hover effect to non-active sidebar items */
+.account-sidebar .list-group-item:not(.active):hover {
+    /* Add your hover styles here */
+    background-color: #f8f9fa; /* Change to your desired background color */
+    color: #000; /* Change to your desired text color */
+}
